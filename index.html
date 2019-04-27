@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Front End</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header id="header">
+        <nav id="main-nav">
+            <a href="#"><img src="img/logo.png" alt="Logo" class="logo-img"></a>
+            <input type="checkbox" id="toogle-nav" class="checkbox">
+            <label for="toogle-nav" class="nav-manu-icon"><span class="menu">Menu</span></label>
+            <ul class="main-nav-list">
+                <li class="main-nav-item"><a href="#" class="main-nav-link active">Home</a></li>
+                <li class="main-nav-item"><a href="#" class="main-nav-link">About us</a></li>
+                <li class="main-nav-item"><a href="#" class="main-nav-link">Portfolio</a></li>
+                <li class="main-nav-item"><a href="#" class="main-nav-link">Nodejs</a></li>
+                <li class="main-nav-item"><a href="#" class="main-nav-link">JavaScript</a></li>
+                <li class="main-nav-item"><a href="#" class="main-nav-link sign-in">Sign In</a></li>
+                <li class="main-nav-item"><a href="#" class="main-nav-link sign-up">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <div class="content">
+            <h2 class="most-recent-post">Most Recent Posts</h2>
+            <!--Posts-->
+            <div class="post">
+                <img src="img/post-photo.jpg" alt="Photo" class="post-image">
+                <div class="post-content">
+                    <h2 class="post-title"><a href="#" class="post-title-link">Why should you learn PHP in 2019</a></h2>
+                    <div class="post-desc">
+                        <a href="#" class="post-category">PHP</a>
+                        Posted by <span>Abdul Barik</span> on <span>17 Dec, 2019 12:00PM</span>
+                    </div>
+                    <p class="post-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus accusantium maiores totam! Debitis iusto fugit dignissimos et aliquam harum, nulla eum minima non possimus modi cupiditate temporibus autem ipsam dolore
+                    </p>
+                    <a href="#" class="post-read-more">Read More &rarr;</a>
+                </div>
+            </div>
+            <div class="post">
+                <img src="img/post-photo-2.jpg" alt="Photo" class="post-image">
+                <div class="post-content">
+                    <h2 class="post-title"><a href="#" class="post-title-link">Does nodejs killing PHP</a></h2>
+                    <div class="post-desc">
+                        <a href="#" class="post-category">Nodejs</a>
+                        Posted by <span>Abdul Barik</span> on <span>17 Dec, 2019 12:00PM</span>
+                    </div>
+                    <p class="post-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus accusantium maiores totam! Debitis iusto fugit dignissimos et aliquam harum, nulla eum minima non possimus modi cupiditate temporibus autem ipsam dolore
+                    </p>
+                    <a href="#" class="post-read-more">Read More &rarr;</a>
+                </div>
+            </div>
+            <div class="post">
+                <img src="img/post-photo-3.jpg" alt="Photo" class="post-image">
+                <div class="post-content">
+                    <h2 class="post-title"><a href="#" class="post-title-link">How long it should takes to learn Laravel</a></h2>
+                    <div class="post-desc">
+                        <a href="#" class="post-category">Laravel</a>
+                        Posted by <span>Abdul Barik</span> on <span>17 Dec, 2019 12:00PM</span>
+                    </div>
+                    <p class="post-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus accusantium maiores totam! Debitis iusto fugit dignissimos et aliquam harum, nulla eum minima non possimus modi cupiditate temporibus autem ipsam dolore
+                    </p>
+                    <a href="#" class="post-read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <!--Pager-->
+            <div id="pager">
+                <a href="#" class="pager-link prv">Prev</a>
+                <a href="#" class="pager-link">1</a>
+                <a href="#" class="pager-link active">2</a>
+                <a href="#" class="pager-link">3</a>
+                <a href="#" class="pager-link nxt">Next</a>
+            </div>
+
+        </div>
+        <aside id="sidebar">
+            <div class="search-box">
+                <form action="#" class="search-parent">
+                    <input type="text" placeholder="Enter search keyword" class="search-input">
+                    <button class="search-btn">
+                        Search
+                    </button>
+                </form>
+            </div>
+            <div class="category-box">
+                <h2 class="category-title">Categories</h2>
+                <div class="category-content">
+                    <a href="#" class="category-item post-category">PHP</a>
+                    <a href="#" class="category-item post-category">JavaScript</a>
+                    <a href="#" class="category-item post-category">Nodejs</a>
+                    <a href="#" class="category-item post-category">Laravel</a>
+                    <a href="#" class="category-item post-category">jQuery</a>
+                    <a href="#" class="category-item post-category">Web Development</a>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-copyright-text">
+            Copyright &copy; 2019. All Right Reserved || Developed by Abdul Barik
+        </div>
+    </footer>
+</body>
+</html>
